@@ -1,0 +1,11 @@
+username,post_id,text,likes,shares,comments
+user1,101,I love the new features in BrandA!,12,5,3
+user2,102,BrandB is overrated IMO.,8,3,2
+user3,103,Just bought from BrandA and it’s amazing!,15,7,4
+user1,104,BrandC is doing great things lately.,10,4,2
+user4,105,I’m done with BrandB. Terrible experience.,6,2,1
+user2,106,BrandA’s latest update is lit,9,3,2
+user5,107,Tried BrandC. Not bad!,7,2,1
+user6,108,What’s your favorite feature from BrandA?,10,3,2
+user7,109,Meh. BrandB is slipping again.,3,1,0
+user8,110,Love this BrandA recommendation from a friend!,10,3,2

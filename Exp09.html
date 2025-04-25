@@ -1,0 +1,193 @@
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>brand</th>
+      <th>followers</th>
+      <th>posts</th>
+      <th>likes</th>
+      <th>comments</th>
+      <th>text</th>
+      <th>preprocessed_text</th>
+      <th>polarity</th>
+      <th>sentiments</th>
+      <th>avg_likes</th>
+      <th>avg_comments</th>
+      <th>avg_posts</th>
+      <th>total_followers</th>
+      <th>engagement_rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>BrandA</td>
+      <td>50000</td>
+      <td>120</td>
+      <td>1500</td>
+      <td>100</td>
+      <td>Absolutely love their latest campaign!</td>
+      <td>absolutely love latest campaign</td>
+      <td>0.562500</td>
+      <td>positive</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.034400</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>BrandB</td>
+      <td>80000</td>
+      <td>200</td>
+      <td>1100</td>
+      <td>85</td>
+      <td>Not impressed with the new collection.</td>
+      <td>impressed new collection</td>
+      <td>-0.181818</td>
+      <td>negative</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.017313</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>BrandC</td>
+      <td>60000</td>
+      <td>150</td>
+      <td>1700</td>
+      <td>130</td>
+      <td>They really care about sustainability.</td>
+      <td>really care sustainability</td>
+      <td>0.200000</td>
+      <td>positive</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.033000</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>BrandA</td>
+      <td>50000</td>
+      <td>120</td>
+      <td>1500</td>
+      <td>100</td>
+      <td>Their ads are everywhere, kind of annoying.</td>
+      <td>ad everywhere kind annoying</td>
+      <td>-0.100000</td>
+      <td>negative</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.034400</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>BrandB</td>
+      <td>80000</td>
+      <td>200</td>
+      <td>1100</td>
+      <td>85</td>
+      <td>Great customer service experience!</td>
+      <td>great customer service experience</td>
+      <td>1.000000</td>
+      <td>positive</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.017313</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>BrandC</td>
+      <td>60000</td>
+      <td>150</td>
+      <td>1700</td>
+      <td>130</td>
+      <td>Too pricey for what they offer.</td>
+      <td>pricey offer</td>
+      <td>0.000000</td>
+      <td>positive</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.033000</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>BrandA</td>
+      <td>50000</td>
+      <td>120</td>
+      <td>1500</td>
+      <td>100</td>
+      <td>Innovative and fresh ideas every time.</td>
+      <td>innovative fresh idea every time</td>
+      <td>0.400000</td>
+      <td>positive</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.034400</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>BrandB</td>
+      <td>80000</td>
+      <td>200</td>
+      <td>1100</td>
+      <td>85</td>
+      <td>I'm neutral about their latest product.</td>
+      <td>neutral latest product</td>
+      <td>0.500000</td>
+      <td>positive</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.017313</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>BrandC</td>
+      <td>60000</td>
+      <td>150</td>
+      <td>1700</td>
+      <td>130</td>
+      <td>Packaging was amazing and eco-friendly.</td>
+      <td>packaging amazing eco-friendly</td>
+      <td>0.600000</td>
+      <td>positive</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.033000</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>BrandA</td>
+      <td>50000</td>
+      <td>120</td>
+      <td>1500</td>
+      <td>100</td>
+      <td>Not worth the hype.</td>
+      <td>worth hype</td>
+      <td>-0.150000</td>
+      <td>negative</td>
+      <td>1440.0</td>
+      <td>104.5</td>
+      <td>153.0</td>
+      <td>620000</td>
+      <td>0.034400</td>
+    </tr>
+  </tbody>
+</table>
